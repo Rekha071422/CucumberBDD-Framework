@@ -11,6 +11,8 @@ public class Assignment1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		
+		//Chrome
 		System.setProperty("webdriver.chrome.driver", "F:\\BlueconchTraining\\Training\\Drivers\\chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
