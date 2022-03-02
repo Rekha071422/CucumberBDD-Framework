@@ -11,11 +11,12 @@ public class Assignment2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		
 		System.setProperty("webdriver.chrome.driver", "F:\\BlueconchTraining\\Training\\Drivers\\chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
 
-		// Launch website
+		// Launching  website
 
 		String url="https://twitter.com/";
 		driver.get(url);
