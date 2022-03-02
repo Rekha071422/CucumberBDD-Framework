@@ -19,7 +19,7 @@ public class Assignment1 {
 
 		String url="https://www.netflix.com/in/";
 		driver.get(url);
-		System.out.println("navigated");
+		// System.out.println("navigated");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		driver.findElement(By.className("nfTextField")).sendKeys("Movies");
